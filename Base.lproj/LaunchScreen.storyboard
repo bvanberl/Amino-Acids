@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--LaunchViewController-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController title="LaunchViewController" id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="AMINO ACIDS TRIVIA" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W45-B5-pU9">
+                                <rect key="frame" x="20" y="104" width="560" height="61"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="main.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="qzD-Uy-Tjm">
+                                <rect key="frame" x="230" y="197" width="141" height="128"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="W45-B5-pU9" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="3Xv-X1-gKm"/>
+                            <constraint firstItem="W45-B5-pU9" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Qeg-Ea-deS"/>
+                            <constraint firstItem="W45-B5-pU9" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="84" id="cnq-5P-nmC"/>
+                            <constraint firstItem="qzD-Uy-Tjm" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="dqX-8l-W8E"/>
+                            <constraint firstItem="W45-B5-pU9" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="g0a-ga-Xa1"/>
+                            <constraint firstItem="qzD-Uy-Tjm" firstAttribute="top" secondItem="W45-B5-pU9" secondAttribute="bottom" constant="32" id="y5k-Cc-6Dw"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Qeg-Ea-deS"/>
+                                <exclude reference="g0a-ga-Xa1"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="main.jpg" width="125" height="125"/>
+    </resources>
+</document>
