@@ -1,0 +1,9 @@
+Welcome to Amino Acids Trivia!
+
+This application is a simple tool that serves to help students wishing to learn their amino acids inside and out.  No Internet connection is required.  By completing the trivia multiple times, you should see an improvement in your ability to recite important attributes about several of the amino acids.
+
+To play the game, select “PLAY” on the main menu.  You will be presented with the first question in the game.  During each question, you are presented with a diagram of an amino acid.  You are prompted to identify the displayed amino acid and enter a number of its properties into indicated text fields.  In particular, you are asked to provide the amino acid’s name, 3-letter abbreviation, 1-letter abbreviation.  You will be also asked to correctly classify it based on its polar qualities.  When you have completed your answer, select “SUBMIT”.  The correct answers will be displayed, and the fields that you answered correctly and incorrectly will be coloured green and red respectively.  Select “NEXT” to advance to the next question.  You are awarded 1 point for each field that you filled out correctly.
+
+There are 20 questions in total (one for each amino acid).  The order that the questions are presented in is random each time you play the game.  At the end of the game, your score will be displayed.  Your high score will be updated if you exceed your previous high score.
+
+Complete the trivia frequently to improve your knowledge of the amino acids.  You should attempt to achieve a high score of 80, which is the game's maximum possible score.  Good luck!

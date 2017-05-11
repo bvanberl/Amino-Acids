@@ -1,0 +1,20 @@
+Alanine,alanine,Ala,A,Nonpolar Hydrophobic
+Arginine,arginine,Arg,R,Polar Basic
+Asparagine,asparagine,Asn,N,Polar Neutral
+Aspartic Acid,aspartic_acid,Asp,D,Polar Acidic
+Cysteine,cysteine,Cys,C,Polar Neutral
+Glutamic Acid,glutamic_acid,Glu,E,Polar Acidic
+Glutamine,glutamine,Gln,Q,Polar Neutral
+Glycine,glycine,Gly,G,Nonpolar Hydrophobic
+Histidine,histidine,His,H,Polar Basic
+Isoleucine,isoleucine,Ile,I,Nonpolar Hydrophobic
+Leucine,leucine,Leu,L,Nonpolar Hydrophobic
+Lysine,lysine,Lys,K,Polar Basic
+Methionine,methionine,Met,M,Nonpolar Hydrophobic
+Phenylalanine,phenylalanine,Phe,F,Nonpolar Hydrophobic
+Proline,proline,Pro,P,Nonpolar Hydrophobic
+Serine,serine,Ser,S,Polar Neutral
+Threonine,threonine,Thr,T,Polar Neutral
+Tryptophan,tryptophan,Trp,W,Nonpolar Hydrophobic
+Tyrosine,tyrosine,Tyr,Y,Polar Neutral
+Valine,valine,Val,V,Nonpolar Hydrophobic
